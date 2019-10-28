@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>
+		Notas de versão:
+		- 1.0.0:
+		* Implementação de funcionalidades para validação de domínio
+
+		Dependências:
+		- FluentValidation 8.5.0
+	</releaseNotes>
+    <copyright></copyright>
+    <tags></tags>
+  </metadata>
+</package>
