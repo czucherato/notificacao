@@ -13,8 +13,8 @@
     <description>$description$</description>
     <releaseNotes>
 		Notas de versão:
-		- 1.0.0:
-		* Implementação de funcionalidades para validação de domínio
+		- 1.0.1:
+		* Correção da mensagem de validação;
 
 		Dependências:
 		- FluentValidation 8.5.0
