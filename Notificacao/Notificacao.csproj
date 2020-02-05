@@ -7,10 +7,20 @@
     <Description>Projeto que fornece implementações para validação de domínio.</Description>
     <RepositoryUrl>https://github.com/czucherato/notificacao.git</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>Notas de versão:
+- 1.2.0:
+* Adicionada referência de propriedade na notificação;
+Dependências:
+- FluentValidation 8.5.0</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Notificacao.Auxiliares\Notificacao.Auxiliares.csproj" />
   </ItemGroup>
 
   <ItemGroup>

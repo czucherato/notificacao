@@ -13,8 +13,8 @@
     <description>$description$</description>
     <releaseNotes>
 		Notas de versão:
-		- 1.0.1:
-		* Correção da mensagem de validação;
+		- 1.2.0:
+		* Adicionada referência de propriedade na notificação;
 
 		Dependências:
 		- FluentValidation 8.5.0

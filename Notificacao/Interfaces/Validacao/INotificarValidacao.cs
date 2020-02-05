@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Linq.Expressions;
 using FluentValidation.Results;
 using System.Collections.Generic;
 
@@ -12,7 +13,7 @@ namespace Notificacao.Interfaces.Validacao
 
         void Adicionar(string mensagem);
 
-        Task AdicionarAsync(string mensagem);
+        void Adicionar<TSource, TProperty>(string mensagem, TSource source, Expression<Func<TSource, TProperty>> expression);
 
         void Adicionar(ValidationResult result);
 
